@@ -366,6 +366,9 @@ body::after {
   }
 }
 @media (max-width: 29.99875em) {
+  .ads-hero__title {
+    font-size: 36px;
+  }
   .item-ad__title {
     font-size: 36px;
   }
