@@ -279,6 +279,9 @@ body::after {
   color: #929292;
   margin-bottom: 46px;
 }
+.popup-request__text span {
+  white-space: nowrap;
+}
 .popup-request textarea {
   resize: none;
   height: 88px;
