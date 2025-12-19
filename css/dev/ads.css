@@ -345,7 +345,7 @@ body::after {
     flex-direction: column;
   }
   .ads-hero__image {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
   }
   .item-ad:nth-child(even) .item-ad__inner {
@@ -366,9 +366,6 @@ body::after {
   }
 }
 @media (max-width: 29.99875em) {
-  .ads-hero__image {
-    width: 100%;
-  }
   .item-ad__title {
     font-size: 36px;
   }
