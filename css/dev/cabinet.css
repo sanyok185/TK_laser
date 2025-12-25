@@ -229,8 +229,8 @@
   .cabinet__title {
     font-size: 36px;
   }
-  .benefits-cabinet__items {
-    grid-template-columns: repeat(1, 1fr);
+  .benefits-cabinet__item {
+    flex-direction: column;
   }
 }
 @media (width <= 28.75em) {
@@ -260,6 +260,11 @@
   }
   .benefits-cabinet__name {
     margin-bottom: 8px;
+  }
+}
+@media (max-width: 26.875em) {
+  .benefits-cabinet__items {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (min-width: 47.99875em) and (width <= 47.99875em) {
